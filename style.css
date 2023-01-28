@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin-left: 20px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.logo {
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 120px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 50px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px;
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: 4s ease;
+}
+
+.cn:hover {
+    background-color: white;
+}
+
+.content span {
+    color: orange;
+    font-size: 60px;
+}
+
+div h3 {
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+div h3 img {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    float: left;
+}
+
+div p {
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+div h4 img {
+    width: 25px;
+    height: 25px;
+    margin-left: 105px;
+    float: left;
+}
+
+div h4 ul {
+    margin-left: 20px;
+    color: orange;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.foot img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 105px;
+    float: left;
+}
+
+.foot ul {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: orange;
+}
